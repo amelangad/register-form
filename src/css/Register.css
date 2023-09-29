@@ -1,0 +1,77 @@
+.form { 
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width:300px;
+    height: 500px;
+    background-color: rgba(59, 44, 40, 0.63);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 20px;
+}
+
+.label {
+    font-weight: 300;
+}
+
+.input {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0 10px 0;
+}
+
+.form__title {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+#pwdnote, #usernote, #matchnote {
+    cursor: pointer;
+    letter-spacing: .5px;
+    line-height: 18px;
+    }
+
+.icon {
+    padding: 2px 5px 0px 2px;
+}
+
+.instructions {
+    display: block;
+    width: 80%;
+    height: auto;
+    background-color: rgba(5, 5, 5, 0.829);
+    color: white;
+    border-radius: 7px;
+    font-size: 12px;
+}
+
+.hide {
+    display: none;
+}
+
+.button {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+.button:hover {
+border-radius: 50px;
+transition: all .5s ease-in;
+cursor: pointer;
+}
+
+.error {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background: red;
+    color: white;
+    padding: 15px 5px;
+}
+
+@media screen and (min-width: 400px){
+    .form{
+        padding: 50px;
+    }
+}
